@@ -1,0 +1,84 @@
+.px{
+    font-size: 20px;
+}
+.rem{
+    font-size: 1.25rem;
+}
+.em{
+    font-size: 1.25em;
+}
+#view{
+    width: 25vw;
+    height: 25vw;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    color:red;
+}
+
+[href = "https://www.google.com"]{
+    color:blue;
+}
+.one.two.three{
+    color:green;
+}
+.one{
+    color:yellow;
+}
+.contanier{
+    width: 100vw;
+    height: 100vh;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contanier .pw{
+    width: 25vw;
+    height: 25vw;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contanier > .id{
+    width: 25vw;
+    height: 25vw;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 + h4{
+    color:aqua;
+}
+
+h3 ~ h5{
+    color:blueviolet;
+}
+
+/* 호버 */
+button:hover{
+    background-color: blue;
+}
+.activated:active{
+    background-color: gray;
+}
+input:focus{
+    background-color: yellow;
+}
+
+/* link, visited */
+a{
+    color:black;
+}
+a:link{
+    color:blue;
+}
+a:visited{
+    color:yellow;
+}
