@@ -191,3 +191,20 @@ const myCraft = new FighterAircraft();
 myCraft.fire();
 myCraft.takeOff();
 myCraft.fire();
+
+const dummy = new Object();
+dummy.attr = 1;
+dummy.method = function(){
+    console.log('메소드');
+}
+console.log(dummy.attr, dummy.method());
+console.log(dummy);
+
+const Dummy1 = function(param){
+    this.attr=param;
+};
+
+Dummy1.prototype.attr2 = 3;
+
+const obj2 = new Dummy1(1);
+console.log(obj2.attr, obj2.attr2);
